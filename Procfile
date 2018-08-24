@@ -1,1 +1,1 @@
-web: gunicorn data_traffickers.app:app
+web: gunicorn data_trafficker.app:app

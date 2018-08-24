@@ -1,4 +1,4 @@
-from data_traffickers.app import db
+from data_trafficker.app import db
 import os
 
 # db.drop_all()

@@ -1,1 +1,1 @@
-FLASK_APP=data_traffickers/app.py flask run
+FLASK_APP=data_trafficker/app.py flask run
