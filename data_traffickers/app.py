@@ -18,7 +18,7 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///austin_traffic2.sqlite"
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///db/austin_traffic2.sqlite"
 db = SQLAlchemy(app)
 
 # reflect an existing database into a new model
