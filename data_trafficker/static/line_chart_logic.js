@@ -28,6 +28,13 @@ Plotly.d3.csv(file, function(err, rows){
         title: "Traffic incident counts by day",
         xaxis: {
           autorange: true,
+          type: "date",
+          title: "Date"
+        },
+        yaxis: {
+          autorange: true,
+          type: "linear",
+          title: "Incident Counts",
           type: "date"
         },
         yaxis: {
@@ -39,4 +46,3 @@ Plotly.d3.csv(file, function(err, rows){
       Plotly.newPlot("plot", data, layout);
 
     })
-
