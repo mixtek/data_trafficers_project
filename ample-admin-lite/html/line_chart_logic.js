@@ -28,6 +28,7 @@ Plotly.d3.csv(file, function(err, rows){
         title: "Traffic incident counts by day",
         xaxis: {
           autorange: true,
+<<<<<<< HEAD
           type: "date",
           title: "Date"
         },
@@ -35,6 +36,13 @@ Plotly.d3.csv(file, function(err, rows){
           autorange: true,
           type: "linear",
           title: "Incident Counts"
+=======
+          type: "date"
+        },
+        yaxis: {
+          autorange: true,
+          type: "linear"
+>>>>>>> master
         }
       };
 
